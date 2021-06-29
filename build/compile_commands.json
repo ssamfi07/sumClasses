@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/samfires/Documents/sumClasses/build",
+  "command": "\"C:\\Program Files\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE\"  @CMakeFiles/sumClasses.dir/includes_CXX.rsp -g -o CMakeFiles\\sumClasses.dir\\main.cpp.obj -c C:\\Users\\samfires\\Documents\\sumClasses\\main.cpp",
+  "file": "C:/Users/samfires/Documents/sumClasses/main.cpp"
+},
+{
+  "directory": "C:/Users/samfires/Documents/sumClasses/build/studentFunctions",
+  "command": "\"C:\\Program Files\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE\"   -g -o CMakeFiles\\studentFunctions.dir\\displayStudents.cpp.obj -c C:\\Users\\samfires\\Documents\\sumClasses\\studentFunctions\\displayStudents.cpp",
+  "file": "C:/Users/samfires/Documents/sumClasses/studentFunctions/displayStudents.cpp"
+}
+]

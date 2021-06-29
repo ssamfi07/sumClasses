@@ -5,12 +5,14 @@
 #include <string.h>
 
 #include "student.hpp"
+#include "sumClassesConfig.hpp"
+#include "studentFunctions.hpp"
 
 void readFromFile(Student *students[])
 {
 
     std::fstream in;
-    in.open("in.txt", std::ios::in);
+    in.open("../in.txt", std::ios::in);
     if(!in)
     {
         std::cout << "\nError at opening the file!";
@@ -47,7 +49,7 @@ void readFromFile(Student *students[])
                     subject[last - first + 1] = '\0'; //adding the null character manually
 
                     //insert the string to the vector if subject is not null
-                    if(subject != NULL)
+                    if(first != last)
                     {
                          subjects.push_back(subject);
                     }
@@ -78,16 +80,14 @@ void readFromFile(Student *students[])
     in.close();
 }
 
-int main()
+int main(int argc, char *argv[])
 {
+
+    std::cout << argv[0] << " version " << sumClasses_VERSION_MAJOR << "." << sumClasses_VERSION_MINOR << "\n";
+
     const int n = 10;
     Student *students[n];;
     readFromFile(students);
-
-    for(int i = 0; i < 3; ++i)
-    {
-        students[i] -> display();
-        std::cout << "\nStudent average: " << students[i] -> calculateAverage() << "\n";
-    }
+    displayStudents(students);
     return 0;
 }

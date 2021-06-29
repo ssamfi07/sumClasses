@@ -1,0 +1,3 @@
+C:/Users/samfires/Documents/sumClasses/bin/CMakeFiles/sumClasses.dir
+C:/Users/samfires/Documents/sumClasses/bin/CMakeFiles/edit_cache.dir
+C:/Users/samfires/Documents/sumClasses/bin/CMakeFiles/rebuild_cache.dir

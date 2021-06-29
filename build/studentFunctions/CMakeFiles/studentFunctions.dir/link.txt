@@ -1,0 +1,2 @@
+"C:\Program Files\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe" qc libstudentFunctions.a CMakeFiles/studentFunctions.dir/displayStudents.cpp.obj
+"C:\Program Files\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe" libstudentFunctions.a

@@ -1,0 +1,3 @@
+// the configured options and settings for Tutorial
+#define sumClasses_VERSION_MAJOR @sumClasses_VERSION_MAJOR@
+#define sumClasses_VERSION_MINOR @sumClasses_VERSION_MINOR@

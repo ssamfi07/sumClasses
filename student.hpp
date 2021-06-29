@@ -16,7 +16,7 @@ class Student:public Person
     std::vector <std::string> subjects;
 
     public:
-        Student(std::string name, int age, std::vector<std::string> subjects, std::string department, std::vector <float> grades):Person(name, age)
+        inline Student(std::string name, int age, std::vector<std::string> subjects, std::string department, std::vector <float> grades):Person(name, age)
         {
             this->name = name;
             this->age = age;
@@ -25,11 +25,11 @@ class Student:public Person
             this->grades = grades;
         };
         ~Student(){};
-        void display();
-        float calculateAverage();
+        void inline display();
+        float inline calculateAverage();
 };
 
-void Student::display()
+void inline Student::display()
 {
     //call method from parent class
     Person::display();
@@ -45,7 +45,7 @@ void Student::display()
     }
 }
 
-float Student::calculateAverage()
+float inline Student::calculateAverage()
 {
     return accumulate(this->grades.begin(), this->grades.end(), 0.0) / this -> grades.size();
 }

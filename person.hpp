@@ -11,18 +11,18 @@ class Person
     int age;
 
     public:
-        Person(std::string name, int age);
+        inline Person(std::string name, int age);
         ~Person(){};
-        virtual void display();
+        virtual void inline display();
 };
 
-Person::Person(std::string name, int age)
+inline Person::Person(std::string name, int age)
 {
     this->name = name;
     this->age = age;
 }
 
-void Person::display()
+void inline Person::display()
 {
     std::cout << "\nName: " << this->name << "\nAge: " << this->age;
 }

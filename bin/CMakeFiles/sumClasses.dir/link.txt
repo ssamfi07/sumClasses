@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sumClasses.dir/objects.a
+"C:\Program Files\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe" cr CMakeFiles\sumClasses.dir/objects.a @CMakeFiles\sumClasses.dir\objects1.rsp
+"C:\Program Files\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE" -Wl,--whole-archive CMakeFiles\sumClasses.dir/objects.a -Wl,--no-whole-archive -o sumClasses.exe -Wl,--out-implib,libsumClasses.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sumClasses.dir\linklibs.rsp
