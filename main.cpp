@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     std::cout << argv[0] << " version " << sumClasses_VERSION_MAJOR << "." << sumClasses_VERSION_MINOR << "\n";
 
     const int n = 10;
-    Student *students[n];;
+    Student *students[n];
     readFromFile(students);
     displayStudents(students);
     return 0;

@@ -16,8 +16,7 @@ configure_file(sumClassesConfig.hpp.in sumClasses.hpp)
 
 #add the subdirectory with the extra functions
 add_subdirectory(studentFunctions)
-list(APPEND EXTRA_LIBS MathFunctions)
-list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/studentFunctions")
+list(APPEND EXTRA_LIBS studentFunctions)
 
 #add the executable
 add_executable(sumClasses main.cpp)
@@ -30,3 +29,7 @@ target_include_directories(sumClasses PUBLIC
                             "${PROJECT_BINARY_DIR}"
                             "${PROJECT_SOURCE_DIR}/studentFunctions"
                           )
+
+#install rules
+install(TARGETS sumClasses DESTINATION bin)
+install(FILES "${PROJECT_BINARY_DIR}/../sumClassesConfig.hpp" DESTINATION include)

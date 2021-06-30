@@ -1,6 +1,14 @@
 C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/sumClasses.dir
+C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/install/local.dir
+C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/install.dir
 C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/edit_cache.dir
 C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/rebuild_cache.dir
+C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/list_install_components.dir
+C:/Users/samfires/Documents/sumClasses/build/CMakeFiles/install/strip.dir
+C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/install/strip.dir
 C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/studentFunctions.dir
+C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/install/local.dir
+C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/install.dir
 C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/edit_cache.dir
 C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/rebuild_cache.dir
+C:/Users/samfires/Documents/sumClasses/build/studentFunctions/CMakeFiles/list_install_components.dir

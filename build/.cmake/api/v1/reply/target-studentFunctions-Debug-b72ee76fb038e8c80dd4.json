@@ -11,7 +11,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"install"
 		],
 		"files" : 
 		[
@@ -26,6 +27,12 @@
 				"command" : 0,
 				"file" : 0,
 				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -47,6 +54,20 @@
 		}
 	],
 	"id" : "studentFunctions::@be29cd28a1fba8257c9b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/sumClasses"
+		}
+	},
 	"name" : "studentFunctions",
 	"nameOnDisk" : "libstudentFunctions.a",
 	"paths" : 

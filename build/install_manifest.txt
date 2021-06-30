@@ -1,0 +1,4 @@
+C:\Users\samfires\Documents\sumClassesInstalled/bin/sumClasses.exe
+C:\Users\samfires\Documents\sumClassesInstalled/include/sumClassesConfig.hpp
+C:\Users\samfires\Documents\sumClassesInstalled/lib/libstudentFunctions.a
+C:\Users\samfires\Documents\sumClassesInstalled/include/studentFunctions.hpp

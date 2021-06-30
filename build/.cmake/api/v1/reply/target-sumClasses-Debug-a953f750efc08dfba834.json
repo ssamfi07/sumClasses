@@ -14,6 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"install",
 			"target_link_libraries",
 			"target_include_directories"
 		],
@@ -29,19 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 29,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 28,
 				"parent" : 0
 			}
 		]
@@ -58,11 +65,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Users/samfires/Documents/sumClasses/build"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Users/samfires/Documents/sumClasses/studentFunctions"
 				}
 			],
@@ -76,11 +83,25 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "studentFunctions::@be29cd28a1fba8257c9b"
 		}
 	],
 	"id" : "sumClasses::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/sumClasses"
+		}
+	},
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,7 +115,7 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "studentFunctions\\libstudentFunctions.a",
 				"role" : "libraries"
 			},
